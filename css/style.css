@@ -1,0 +1,246 @@
+body{
+    background-color: #faf6ef;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 94%;
+    padding: 0px 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 992px){
+.container{
+    max-width: 960px;
+}}
+@media (min-width: 1200px){
+.container {
+    max-width: 1140px;
+}}
+@media (min-width: 1400px){
+.container{
+    max-width: 1320px;
+}}
+
+
+
+
+
+.product-section{
+    display: flex;
+}
+ 
+.left-block{
+    width: 55%;
+}
+.left-block img{
+    border-radius: 25px;
+    box-shadow: 0px 3px 5px -1px rgba(77,77,77,0.75);
+    -webkit-box-shadow: 0px 3px 5px -1px rgba(77,77,77,0.75);
+    -moz-box-shadow: 0px 3px 5px -1px rgba(77,77,77,0.75);
+}
+.left-block .mid-img img{
+    width: 220px;
+    height: 220px;
+    margin: 10px 17px 10px 0px;
+}
+
+.right-block{
+    width: 45%;
+    margin-left: 40px;
+    color: #190139;
+}
+.product-heading{
+    color:#190139;
+    font-size: 40px;
+    margin: 0px;
+}
+.stars{
+    margin-left: -40px;
+    font-size: 20px;
+    color:#190139;
+}
+.stars .fa{
+    color: rgb(238, 230, 53);
+}
+.stars li{
+    list-style: none;
+    display: inline-block;
+}
+.oldprice,
+.realprice{
+    font-size: 20px;
+    color:#190139;
+}
+.oldprice{
+    margin-right: 10px;
+    text-decoration: line-through;
+}
+.tax{
+    margin-top: 0px;
+}
+.instock{
+    font-size: 20px;
+}
+.light{
+    color: #444;
+}
+.color button,
+.size button{
+    font-size: 16px;
+    padding: 8px 23px;
+    border-radius: 4px;
+    border: 1px solid #190139;
+    background: transparent;
+    margin-right: 5px;
+}
+.color .active,
+.size .active{
+    background: #190139;
+    color: #fff;
+}
+.size button{
+    margin-bottom: 10px;
+}
+.counter{
+    background: #fff;
+    width: 150px;
+    font-size: 20px;
+    border: 1px solid #190139;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    background: transparent;
+}
+.counter input{
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    border: 0px;
+    background: transparent;
+}
+.counter .down{
+    font-size: 20px;
+    padding: 10px 17px;
+}
+.counter .up{
+    font-size: 20px;
+    padding: 10px 10px;
+}
+.btn button{
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #444;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.buy-btn button{
+    width: 100%;
+    height: 40px;
+    background: #5A31F4;
+    border: 0px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.more-btn{
+    text-align: center;
+}
+.more-btn a{
+    color: #190139;
+    border-bottom: 1px solid #190139;
+}
+.right-block img{
+    border-radius: 25px;
+    box-shadow: 0px 3px 5px -1px rgba(77,77,77,0.75);
+    -webkit-box-shadow: 0px 3px 5px -1px rgba(77,77,77,0.75);
+    -moz-box-shadow: 0px 3px 5px -1px rgba(77,77,77,0.75);
+}
+.right-block  img{
+    width: 330px;
+    height: 330px;
+    margin: 10px;
+}
+.features li{
+    list-style: none;
+}
+
+#mid-section{
+    background: #190139;
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+#posts .allposts{
+    margin: 40px 0px;
+}
+.post-block{
+    width: 23%;
+    float: left;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #fff;
+}
+.post-block h3, p{
+    margin: 10px;
+    color: #444;
+}
+.post-block h3{
+    color:rgb(238, 230, 53);
+}
+.post-block .stars{
+    margin-left: -31px;
+    margin-top: -6px;
+}
+
+/* Laptop Media Query */
+@media (min-width:1220px){
+    .left-block .mid-img img {
+        width: 282px;
+        height: 282px;
+    }
+}
+/* Mobile Media Queries*/
+@media (max-width:767px){
+    body{
+        overflow-x: hidden;
+    }
+    .left-block .mid-img{
+        display: none;
+    }
+    .left-block,
+    .right-block {
+        width: 100%;
+    }
+    .product-section {
+        display: block;
+    }
+    .right-block {
+        margin-left: 0px;
+        margin: 30px 0px;
+    }
+    .right-block img {
+        width: auto;
+        height: auto;
+    }
+    .post-block {
+        width: auto; 
+        float: none;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .post-block{
+        padding-bottom: 20px;
+    }
+}
+
+
+
+
+
+
